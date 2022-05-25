@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main(){
+    /*
+    Menukar nilai (Bilangan Bulat) X ke Variabel Y
+Contoh Input :
+X = 3;
+Y = 2;
+Contoh Output :
+X = 2;
+y = 3;
+*/
+    
+  int x,y,z;
+cout<<"Masukkan nilai X = ";
+cin>>x;
+cout<<"Masukkan Nilai Y = ";
+  cin>>y;
+  z = x;
+  x = y;
+  y = z;
+
+cout<<"Nilai X adalah = "<<x;
+cout<<endl;
+cout<<"Nilai Y adalah = "<<y;
+}
